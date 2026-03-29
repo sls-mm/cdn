@@ -64,16 +64,16 @@ var $oResultBox = $('#resultBox');
                 var create_dl = $('<div></div>');
                 
                var  _html = 
-                  '<div class="hb_a"><div class="b_men"><a href='+books[num].url+
-                  ' class="s22" style=""><p style="text-align: center;color:white;">'+books[num].pitchs+
-                  '</br>33'+books[num].type+'</p>'+'<p style="float:left;font-size: 0.8rem;color:white;">'+'Features<br>'+
-                    books[num].current+'<br>'+books[num].poles+'<br>'+books[num].wirerange+'<br>'+books[num].equivalent+'<br></p></a>'+
+                   '<div class="hb_a"><div class="b_men"><a href='+books[num].url+
+                  ' class="s22" style=""><p style="text-align: center;color:white;">'+books[num].title+
+                  ' Series</br>'+books[num].type+'</p>'+'<p style="float:left;font-size: 0.8rem;color:white;">'+'<span style="font-size: 1rem;font-weight:bold;">Features</span><br>Current Rating：'+
+                    books[num].current+'<br>Number of Positions：'+books[num].poles+'<br>Applicable wires：'+books[num].wirerange+'<br>Alternative：'+books[num].equivalent+'<br></p></a>'+
                    '<div class="bm_con"><div class="bm_l"><a href='+books[num].url+ 
-                   ' class="bm_u s14"><img src="./templates/2019/images/more11.png">More +</a></div><div class="bm_l"><a href='+books[num].url+ 
-                   ' class="bm_u s14"><img src="./templates/2019/images/pdf.svg">Drawing</a></div><div class="bm_l"><a href='+books[num].url+
-                   ' class="bm_u s14"><img src="./templates/2019/images/pdf.svg">SPEC</a></div></div></div>'+
-                   '<p class="hc_tit s22" style="text-align: center;color:white;background-image: url(./templates/2019/images/pt_bggreen.png);">'+books[num].pitchs+
-                  '</br>'+books[num].type+'</p><div class="hb_i"><img src='+books[num].imgurl+' alt='+books[num].type+'/></div></div>'
+                   ' class="bm_u s14"><img src="./templates/2019/images/more.svg">&nbspMore +</a></div><div class="bm_l"><a href='+books[num].url+ 
+                   ' class="bm_u s14"><img src="./templates/2019/images/pdf1.svg">&nbspDrawing</a></div><div class="bm_l"><a href='+books[num].url+
+                   ' class="bm_u s14"><img src="./templates/2019/images/pdf1.svg">&nbspSPEC</a></div></div></div>'+
+                   '<p class="hc_tit s22" style="text-align: center;color:white;background-image: url(./templates/2019/images/pt_bggreen.png);">'+books[num].title+
+                  ' Series</br>'+books[num].type+'</p><div class="hb_i"><img src='+books[num].imgurl+' alt='+books[num].type+'/></div></div>'
 
 
                        
@@ -100,15 +100,15 @@ var $oResultBox = $('#resultBox');
                 
             var  _html = 
                   '<div class="hb_a"><div class="b_men"><a href='+books[num].url+
-                  ' class="s22" style=""><p style="text-align: center;color:white;">'+books[num].pitchs+
-                  '</br>11'+books[num].type+'</p>'+'<p style="float:left;font-size: 0.8rem;color:white;">'+'Features<br>'+
-                    books[num].current+'<br>'+books[num].poles+'<br>'+books[num].wirerange+'<br>'+books[num].equivalent+'<br></p></a>'+
+                  ' class="s22" style=""><p style="text-align: center;color:white;">'+books[num].title+
+                  ' Series</br>'+books[num].type+'</p>'+'<p style="float:left;font-size: 0.8rem;color:white;">'+'<span style="font-size: 1rem;font-weight:bold;">Features</span><br>Current Rating：'+
+                    books[num].current+'<br>Number of Positions：'+books[num].poles+'<br>Applicable wires：'+books[num].wirerange+'<br>Alternative：'+books[num].equivalent+'<br></p></a>'+
                    '<div class="bm_con"><div class="bm_l"><a href='+books[num].url+ 
-                   ' class="bm_u s14"><img src="./templates/2019/images/more11.png">More +</a></div><div class="bm_l"><a href='+books[num].url+ 
-                   ' class="bm_u s14"><img src="./templates/2019/images/pdf.svg">Drawing</a></div><div class="bm_l"><a href='+books[num].url+
-                   ' class="bm_u s14"><img src="./templates/2019/images/pdf.svg">SPEC</a></div></div></div>'+
-                   '<p class="hc_tit s22" style="text-align: center;color:white;background-image: url(./templates/2019/images/pt_bggreen.png);">'+books[num].pitchs+
-                  '</br>'+books[num].type+'</p><div class="hb_i"><img src='+books[num].imgurl+' alt='+books[num].type+'/></div></div>'
+                   ' class="bm_u s14"><img src="./templates/2019/images/more.svg">&nbspMore +</a></div><div class="bm_l"><a href='+books[num].url+ 
+                   ' class="bm_u s14"><img src="./templates/2019/images/pdf1.svg">&nbspDrawing</a></div><div class="bm_l"><a href='+books[num].url+
+                   ' class="bm_u s14"><img src="./templates/2019/images/pdf1.svg">&nbspSPEC</a></div></div></div>'+
+                   '<p class="hc_tit s22" style="text-align: center;color:white;background-image: url(./templates/2019/images/pt_bggreen.png);">'+books[num].title+
+                  ' Series</br>'+books[num].type+'</p><div class="hb_i"><img src='+books[num].imgurl+' alt='+books[num].type+'/></div></div>'
 
 
                        
@@ -127,16 +127,16 @@ var $oResultBox = $('#resultBox');
                 var create_dl = $('<div></div>');
                 
              var  _html = 
-                  '<div class="hb_a"><div class="b_men"><a href='+books[num].url+
-                  ' class="s22" style=""><p style="text-align: center;color:white;">'+books[num].pitchs+
-                  '</br>22'+books[num].type+'</p>'+'<p style="float:left;font-size: 0.8rem;color:white;">'+'Features<br>'+
-                    books[num].current+'<br>'+books[num].poles+'<br>'+books[num].wirerange+'<br>'+books[num].equivalent+'<br></p></a>'+
+                   '<div class="hb_a"><div class="b_men"><a href='+books[num].url+
+                  ' class="s22" style=""><p style="text-align: center;color:white;">'+books[num].title+
+                  ' Series</br>'+books[num].type+'</p>'+'<p style="float:left;font-size: 0.8rem;color:white;">'+'<span style="font-size: 1rem;font-weight:bold;">Features</span><br>Current Rating：'+
+                    books[num].current+'<br>Number of Positions：'+books[num].poles+'<br>Applicable wires：'+books[num].wirerange+'<br>Alternative：'+books[num].equivalent+'<br></p></a>'+
                    '<div class="bm_con"><div class="bm_l"><a href='+books[num].url+ 
-                   ' class="bm_u s14"><img src="./templates/2019/images/more11.png">More +</a></div><div class="bm_l"><a href='+books[num].url+ 
-                   ' class="bm_u s14"><img src="./templates/2019/images/pdf.svg">Drawing</a></div><div class="bm_l"><a href='+books[num].url+
-                   ' class="bm_u s14"><img src="./templates/2019/images/pdf.svg">SPEC</a></div></div></div>'+
-                   '<p class="hc_tit s22" style="text-align: center;color:white;background-image: url(./templates/2019/images/pt_bggreen.png);">'+books[num].pitchs+
-                  '</br>'+books[num].type+'</p><div class="hb_i"><img src='+books[num].imgurl+' alt='+books[num].type+'/></div></div>'
+                   ' class="bm_u s14"><img src="./templates/2019/images/more.svg">&nbspMore +</a></div><div class="bm_l"><a href='+books[num].url+ 
+                   ' class="bm_u s14"><img src="./templates/2019/images/pdf1.svg">&nbspDrawing</a></div><div class="bm_l"><a href='+books[num].url+
+                   ' class="bm_u s14"><img src="./templates/2019/images/pdf1.svg">&nbspSPEC</a></div></div></div>'+
+                   '<p class="hc_tit s22" style="text-align: center;color:white;background-image: url(./templates/2019/images/pt_bggreen.png);">'+books[num].title+
+                  ' Series</br>'+books[num].type+'</p><div class="hb_i"><img src='+books[num].imgurl+' alt='+books[num].type+'/></div></div>'
 
 
                        
