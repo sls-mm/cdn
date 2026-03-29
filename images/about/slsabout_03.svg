@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 460 460" xml:space="preserve">
+<g id="XMLID_1864_">
+	<rect id="XMLID_1865_" x="110" y="300" style="fill:#404040;" width="40" height="60"/>
+	<rect id="XMLID_1866_" x="110" y="40" style="fill:#404040;" width="40" height="100"/>
+	<rect id="XMLID_1867_" x="40" y="40" style="fill:#404040;" width="40" height="100"/>
+	<rect id="XMLID_1868_" x="40" y="300" style="fill:#404040;" width="40" height="60"/>
+	<rect id="XMLID_1869_" x="80" y="300" style="fill:#FF6A00;" width="30" height="60"/>
+	<rect id="XMLID_1870_" x="80" y="40" style="fill:#FF6A00;" width="30" height="100"/>
+	<rect id="XMLID_1871_" x="40" style="fill:#FFAA19;" width="110" height="40"/>
+	<path id="XMLID_1872_" style="fill:#E8E8E8;" d="M180,300V140H0v110l40,20v30H180z M110,170h40v100h-40V170z"/>
+	<rect id="XMLID_1875_" x="180" y="170" style="fill:#BFBFBF;" width="30" height="100"/>
+	<rect id="XMLID_1876_" x="240" y="205" style="fill:#BFBFBF;" width="50" height="30"/>
+	<rect id="XMLID_1877_" x="210" y="190" style="fill:#404040;" width="30" height="60"/>
+	<path id="XMLID_1878_" style="fill:#FF6A00;" d="M300,420c-11.046,0-20-8.954-20-20h-30c0,11.046-8.954,20-20,20v40h230v-60H320
+		C320,411.046,311.046,420,300,420z"/>
+	<path id="XMLID_1879_" style="fill:#FFAA19;" d="M210,400h-60v-40H0v100h230v-40C218.954,420,210,411.046,210,400z"/>
+	<path id="XMLID_1880_" style="fill:#BFBFBF;" d="M150,360v40h60c0-11.046,8.954-20,20-20s20,8.954,20,20h30
+		c0-11.046,8.954-20,20-20s20,8.954,20,20h140v-40H150z"/>
+	<rect id="XMLID_1881_" x="110" y="170" style="fill:#BFBFBF;" width="40" height="100"/>
+	<circle id="XMLID_1882_" style="fill:#E8E8E8;" cx="230" cy="400" r="20"/>
+	<circle id="XMLID_1883_" style="fill:#E8E8E8;" cx="300" cy="400" r="20"/>
+	<rect id="XMLID_1884_" x="180" y="330" style="fill:#E8E8E8;" width="250" height="30"/>
+</g>
+</svg>
