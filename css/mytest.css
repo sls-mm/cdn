@@ -1,0 +1,516 @@
+
+.search-pro {
+  padding-bottom: 120px; }
+  .search-pro > ul > li {
+    position: relative;
+    border-top: 1px solid #cccccc;
+    padding-top: 24px;
+    padding-bottom: 30px; }
+    .search-pro > ul > li .compare {
+      position: absolute;
+
+      top: 0;
+      right: 0;
+      border-bottom: 1px solid #cccccc;
+      /*border-top: 1px solid #cccccc;*/
+      border-left: 1px solid #cccccc;
+      border-right: 1px solid #cccccc;
+       }
+    .search-pro > ul > li .result-thumb-col {
+      width: 30%;
+      float: left; }
+      .search-pro > ul > li .result-thumb-col > a {
+        margin-left: 5px;
+        font-size: 10px;
+        color: #00a84b;
+        /*padding-left: 40px;*/
+        /*background: url(../images/ico1.png) no-repeat center left;*/
+        display: block;
+        line-height: 35px;
+        margin-bottom: 5px;
+        margin-top: -20px; }
+            
+    .search-pro > ul > li .result-info-features-col {
+      width: 69%;
+      float: left; }
+      .search-pro > ul > li .result-info-features-col ._t {
+        font-size: 21px;
+        /*color: #00a84a;*/
+        color: #666666;
+        font-family: "Avenir" !important;
+        font-weight: 600; 
+        margin-bottom: 1px;
+      }
+      .search-pro > ul > li .result-info-features-col h2 {
+        font-size: 15px;
+        color: #333;
+        line-height: 2em;
+        font-weight: normal; }
+        .search-pro > ul > li .result-info-features-col h2 a {
+          color: #333; }
+      .search-pro > ul > li .result-info-features-col .product-features {
+        width: 48%;
+        float: left; }
+        .search-pro > ul > li .result-info-features-col .product-features li {
+          font-size: 15px;
+          padding-bottom: 5px;
+          color: #333; }
+          .search-pro > ul > li .result-info-features-col .product-features li em {
+            margin-left: 6px;
+            font-weight: bold;
+            font-style: normal; }
+      .search-pro > ul > li .result-info-features-col .product-ids {
+        margin-top: 80px;
+      }
+        .search-pro > ul > li .result-info-features-col .product-ids li {
+          font-size: 15px;
+          color: #333;
+          line-height: 2em; }
+      .search-pro > ul > li .result-info-features-col .bot {
+        color: #00a84a;
+        font-size: 1.2rem;
+        line-height: 2em; 
+        margin-left: -2px;
+      }
+        .search-pro > ul > li .result-info-features-col .bot a {
+          color: #044fa0; }
+      .search-pro > ul > li .result-info-features-col .click {
+        margin-top: 8px;
+        width: 99px;
+        height: 39px;
+        margin-left: 9px;
+        background: #ccc; }
+        .search-pro > ul > li .result-info-features-col .click a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: #ededee;
+
+          position: relative;
+          font-size: 15px;
+          color: #00a84b;
+          text-align: center;
+          line-height: 39px;
+          bottom: 1px;
+          right: 1px; }
+  .search-pro .container {
+    width: 100%;
+    background-color: #eeeeee;
+    box-shadow: 0px 10px 10px 0px rgba(0, 34, 70, 0.08);
+/*    box-shadow: 0 2px 10px rgba(0,0,0,0.1);*/
+            border-radius: 8px;
+    margin-right: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 6px;
+  }
+  .search-pro .down li a {
+    margin-left: 5px;
+    font-size: 7px;
+    color: #044fa0;
+  
+    line-height: 35px; }
+
+    .pro-links li a {
+      
+      display: inline-block;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    color: #15ae2f;
+    line-height: 35px; }
+    .pro-links li a:hover {
+    
+    color: orange;
+  }
+
+.compare-product-btn {
+    float: right;
+    position: relative;
+}
+.desktop{
+  display: block;
+}
+  .search-pro .down li a:hover{
+    color: red;
+  }
+
+
+              
+
+
+
+        .result-info-col{
+          margin-top: 5px;
+        }
+        .search-pro > ul > li .result-info-features-col ._d{
+              font-size: 22px;
+
+      color: #3db7e4;
+      font-family: "Avenir" !important;
+      font-weight: 600;
+        }
+        .result-info-features-col p{
+          color:GRAY;padding: 12px 65px 7px 10px;font: 400 14px 'Avenir','Avenir W02',Arial,Helvetica,sans-serif;
+        }
+        .result-info-features-col h2{
+              padding: 0 0 0px 10px;
+    overflow: hidden;
+    font-size: 1.125rem;
+        }
+         .result-info-features-col h2 a{
+                      padding: 6px 0;
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 1.15384615;
+    font-size: 1.334rem !important;
+    color:#0066a1 !important;
+        }
+
+        .result-info-features-col h2 span{
+          display: inline-block;
+          font-size: 20px;
+        }
+
+        .result-info-col{
+              margin-right: 40px;
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    clear: both;
+  }
+  .result-info-col .result-features-col{
+        padding-top: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+   .result-features-col ul li {
+    padding-bottom: 2px !important;
+    font-size: 14px !important;
+    line-height: 1.71428571 !important;
+    color: #747678 !important;
+    font-weight: 400 !important;
+}
+.product-features em{
+  font: 900 14px 'Avenir','Avenir W02',Arial,Helvetica,STXihei,"华文细黑","Microsoft YaHei","微软雅黑",SimSun,"宋体",Heiti,"黑体",sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.search-pro .container .bq{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-image: url(../../../templates/2019/images/pi_bggreeno.png);
+    background-color: transparent;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+/*    background-color: #15ae2f;*/
+    transition: width .5s;
+}
+
+
+.search-pro .container:hover .bq {
+    width: 100%;
+    transition: all .5s;
+}
+
+.search-pro .container:hover {
+    transition: all .5s;
+    transform: scale(1.2) ;
+    box-shadow: 0px 10px 10px 0px rgba(0, 34, 70, 0.1);
+    z-index: 2;
+}
+
+
+.search-pro > ul > li .result-thumb-col > a:hover{
+  color: #80CAA1;
+}
+.result-info-features-col h2 span:hover{
+  color: #3db7e4;
+}
+.search-pro > ul > li .result-info-features-col .bot a:hover{
+  color: #80CAA1;
+}
+.search-pro .down li a span:hover{
+      /*background: url(../images/ico2_.png) no-repeat left center;*/
+}
+.search-pro > ul > li .result-thumb-col > a:hover{
+     /*background: url(../images/ico1_.png) no-repeat left center;*/
+}
+.product-compare-page .compare-row .new-row .item .product-ids li h3 a:hover{
+  color:#80CAA1;
+}
+/*.down li:hover{
+  color: #80CAA1;
+}*/
+.down li a:hover{
+  color: #80CAA1;
+}
+
+
+@media (max-width: 950px) {
+  .imgss{
+     max-width: 100%;
+    width: 100% !important;
+  }
+
+  .newseventsbox .news {
+    width: 28%;
+  }
+    .product-ids {
+    margin-top: -25px!important;}
+
+    .search-pro .container img{
+    max-height: 100%;
+
+  }
+ /* .container .bq{
+        width: 86.5%;
+  }*/
+  .search-pro ul li .result-info-features-col {
+    width: auto; }
+    .search-pro ul li .result-info-features-col .product-features {
+      float: none;
+      width: 100%; } }
+
+@media (max-width: 750px) {
+    .product-details h1{
+      font-size: 1rem;
+    }
+
+    .search-pro > ul > li {
+    width: 90%;
+    margin: 0 auto; }
+    .search-pro > ul > li .result-thumb-col {
+      float: none;
+      width: 100%; }
+      .search-pro > ul > li .result-thumb-col .container {
+        width: 100%;
+        height: auto; }
+    .search-pro > ul > li .result-info-features-col {
+      float: none;
+      width: 100%; }
+    .search-pro > ul > li .compare {
+   display: none;
+       } 
+
+  .search-res .result{
+    padding-left: 5%;
+  }
+  .result-info-col .result-features-col{
+    padding-left:3px;
+  }
+  .result-info-features-col p{
+    font-size: 12px;
+    padding:12px 65px 7px 5px;
+  }
+  .result-info-features-col h2 span{
+    font-size: 26px;
+  }
+  .result-info-features-col h2{
+    padding:0px 0px 0 3px;
+  }
+  .header-right .box_none {
+    display: none; }
+
+  .screen-con .scr {
+    width: 45%; }
+
+  /*修改部分*/
+  .nypro-list ul li {
+    width: 45%;
+    margin: 2.5%; } }
+
+    @media (max-width: 480px){
+.product-ids {
+    margin-top: -25px!important;
+}
+@media (max-width: 415px){
+.product-ids {
+    margin-top: -20px!important;
+}
+
+ .gradient-select {
+            position: relative;
+        }
+        
+        .gradient-select::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 8px solid #fff;
+            pointer-events: none;
+        }
+        
+        select {
+            width: 100%;
+            padding: 14px 40px 14px 15px;
+            border: none;
+            border-radius: 6px;
+            background: linear-gradient(135deg, #4F46E5 0%, #6366F1 100%);
+            font-size: 16px !important;
+            color: white;
+            appearance: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        select:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.3);
+        }
+        
+        select option {
+            background-color: white;
+            color: #333;
+        }
+        
+        #resultDisplay {
+            margin-top: 20px;
+            padding: 15px;
+            background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        #resultDisplayb {
+            margin-top: 20px;
+            padding: 15px;
+            background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .pagination-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      position: relative; /* 为绝对定位提供参考 */
+    }
+    
+    /* 每页显示控件移至左上角 */
+    .page-size-selector {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      margin-right: 0;
+      z-index: 10;
+      background-color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .items-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 40px; /* 为顶部控件留出空间 */
+      margin-bottom: 20px;
+    }
+    
+    .item {
+      flex: 0 0 calc(33.333% - 15px);
+      box-sizing: border-box;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      transition: all 0.3s ease;
+    }
+    
+    .item:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+    
+    .pagination-controls {
+      display: flex;
+      justify-content: center; /* 居中显示 */
+      align-items: center;
+      padding: 10px 0;
+    }
+    
+    .page-navigation {
+      display: flex;
+      align-items: center;
+    }
+    
+    .page-btn {
+      padding: 6px 12px;
+      margin: 0 2px;
+      border: 1px solid #ddd;
+      background-color: white;
+      color: #333;
+      cursor: pointer;
+      border-radius: 3px;
+      transition: all 0.2s;
+    }
+    
+    .page-btn:hover:not(.disabled) {
+      background-color: #f5f5f5;
+    }
+    
+    .page-btn.active {
+      background-color: #007BFF;
+      color: white;
+      border-color: #007BFF;
+    }
+    
+    .page-btn.disabled {
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+    
+    .page-info {
+      margin: 0 15px;
+      color: #666;
+    }
+    
+    /* 响应式设计 */
+    @media (max-width: 600px) {
+      .items-container {
+        flex-direction: column;
+      }
+      
+      .item {
+        flex: 1 0 auto;
+      }
+      
+      .page-size-selector {
+        position: static;
+        margin-bottom: 15px;
+        box-shadow: none;
+        padding: 0;
+      }
+      
+      .items-container {
+        margin-top: 15px;
+      }
+      
+      .pagination-controls {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+
+span#resultDisplayb
+{
+  color: orange;
+}
