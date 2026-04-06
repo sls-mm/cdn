@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">旋转对称图案集合</text>
+  
+  <!-- 1. 六边形旋转图案 -->
+  <g transform="translate(200, 150)">
+    <text x="0" y="-80" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">六边形旋转图案</text>
+    <g id="hexagon-pattern">
+      <polygon points="0,-70 61,-35 61,35 0,70 -61,35 -61,-35" fill="none" stroke="#3498db" stroke-width="2" />
+      <polygon points="0,-70 61,-35 61,35 0,70 -61,35 -61,-35" fill="none" stroke="#e74c3c" stroke-width="2" transform="rotate(30)" />
+      <polygon points="0,-50 43,-25 43,25 0,50 -43,25 -43,-25" fill="none" stroke="#2ecc71" stroke-width="2" />
+      <polygon points="0,-50 43,-25 43,25 0,50 -43,25 -43,-25" fill="none" stroke="#f39c12" stroke-width="2" transform="rotate(30)" />
+      <circle cx="0" cy="0" r="15" fill="#9b59b6" />
+    </g>
+    <animateTransform 
+      xlink:href="#hexagon-pattern"
+      attributeName="transform" 
+      type="rotate" 
+      from="0" 
+      to="360" 
+      dur="20s" 
+      repeatCount="indefinite" 
+    />
+  </g>
+  
+  <!-- 2. 星形旋转图案 -->
+  <g transform="translate(600, 150)">
+    <text x="0" y="-80" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">星形旋转图案</text>
+    <g id="star-pattern">
+      <path d="M0,-70 L15,-20 L65,-20 L25,10 L40,60 L0,30 L-40,60 L-25,10 L-65,-20 L-15,-20 Z" fill="none" stroke="#e74c3c" stroke-width="2" />
+      <path d="M0,-50 L11,-15 L46,-15 L18,8 L29,43 L0,22 L-29,43 L-18,8 L-46,-15 L-11,-15 Z" fill="none" stroke="#3498db" stroke-width="2" />
+      <path d="M0,-30 L7,-9 L28,-9 L11,5 L17,26 L0,13 L-17,26 L-11,5 L-28,-9 L-7,-9 Z" fill="#2ecc71" />
+    </g>
+    <animateTransform 
+      xlink:href="#star-pattern"
+      attributeName="transform" 
+      type="rotate" 
+      from="0" 
+      to="360" 
+      dur="15s" 
+      repeatCount="indefinite" 
+    />
+  </g>
+  
+  <!-- 3. 螺旋旋转图案 -->
+  <g transform="translate(200, 400)">
+    <text x="0" y="-80" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">螺旋旋转图案</text>
+    <g id="spiral-pattern">
+      <path d="M0,0 Q10,-10 20,-20 T40,-40 T60,-60 T80,-80" fill="none" stroke="#9b59b6" stroke-width="2" />
+      <path d="M0,0 Q-10,10 -20,20 T-40,40 T-60,60 T-80,80" fill="none" stroke="#3498db" stroke-width="2" />
+      <path d="M0,0 Q10,10 20,20 T40,40 T60,60 T80,80" fill="none" stroke="#e74c3c" stroke-width="2" />
+      <path d="M0,0 Q-10,-10 -20,-20 T-40,-40 T-60,-60 T-80,-80" fill="none" stroke="#2ecc71" stroke-width="2" />
+      <circle cx="0" cy="0" r="5" fill="#f39c12" />
+    </g>
+    <animateTransform 
+      xlink:href="#spiral-pattern"
+      attributeName="transform" 
+      type="rotate" 
+      from="0" 
+      to="360" 
+      dur="25s" 
+      repeatCount="indefinite" 
+    />
+  </g>
+  
+  <!-- 4. 花瓣旋转图案 -->
+  <g transform="translate(600, 400)">
+    <text x="0" y="-80" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">花瓣旋转图案</text>
+    <g id="flower-pattern">
+      <ellipse cx="0" cy="-60" rx="20" ry="30" fill="#e74c3c" />
+      <ellipse cx="0" cy="-60" rx="20" ry="30" fill="#e74c3c" transform="rotate(60)" />
+      <ellipse cx="0" cy="-60" rx="20" ry="30" fill="#e74c3c" transform="rotate(120)" />
+      <ellipse cx="0" cy="-60" rx="20" ry="30" fill="#e74c3c" transform="rotate(180)" />
+      <ellipse cx="0" cy="-60" rx="20" ry="30" fill="#e74c3c" transform="rotate(240)" />
+      <ellipse cx="0" cy="-60" rx="20" ry="30" fill="#e74c3c" transform="rotate(300)" />
+      <circle cx="0" cy="0" r="15" fill="#f39c12" />
+    </g>
+    <animateTransform 
+      xlink:href="#flower-pattern"
+      attributeName="transform" 
+      type="rotate" 
+      from="0" 
+      to="360" 
+      dur="30s" 
+      repeatCount="indefinite" 
+    />
+  </g>
+</svg>
